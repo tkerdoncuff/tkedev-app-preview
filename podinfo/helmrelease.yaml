@@ -11,7 +11,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: podinfo-repo
-        namespace: flux
+        namespace: flux-system
       version: "6.3.5"
   values:
     replicaCount: "${REPLICA_COUNT:-2}"
