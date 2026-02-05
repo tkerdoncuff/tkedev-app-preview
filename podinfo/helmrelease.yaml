@@ -14,7 +14,7 @@ spec:
         namespace: flux-system
       version: "6.3.5"
   values:
-    replicaCount: "${REPLICA_COUNT:-3}"
+    replicaCount: "${REPLICA_COUNT:-7}"
     image:
       repository: "${IMAGE_REPOSITORY:-ghcr.io/stefanprodan/podinfo}"
       tag: "${IMAGE_TAG:-6.3.5}"
